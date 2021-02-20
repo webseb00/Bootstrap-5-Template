@@ -4,11 +4,129 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="./dist/style.css">
     <title>Bridge Template</title>
   </head>
   <body>
-    <h1 class="heading">Hello World</h1>
+    <!-- MAIN NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+      <div class="container">
+        <a class="navbar-brand text-primary fw-bold" href="#">Bridge</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Elements
+              </a>
+              <ul class="dropdown-menu p-0 shadow border-0" aria-labelledby="navbarDropdown">
+                <li class="border-bottom"><a class="dropdown-item" href="#">Feature</a></li>
+                <li class="border-bottom"><a class="dropdown-item" href="#">About</a></li>
+                <li class="border-bottom"><a class="dropdown-item" href="#">Testimonials</a></li>
+                <li class="border-bottom"><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">FAQ</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" aria-disabled="true">Account</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Documentation
+              </a>
+              <div class="dropdown-menu group-menu shadow border-0" aria-labelledby="navbarDropdown">
+                <div class="group-item border-bottom">
+                  <a class="group-link text-decoration-none" href="#">
+                    <div>
+                      <img src="src/graphics/nav-1.png" />
+                    </div>
+                    <div class="group-text">
+                      <p class="text-primary text-uppercase fw-bold mb-0">
+                        Documentation
+                      </p>
+                      <p class="group-info mb-0">Customizing and building</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="group-item border-bottom">
+                  <a class="group-link text-decoration-none" href="#">
+                    <div>
+                      <img src="src/graphics/nav-2.png" />
+                    </div>
+                    <div class="group-text">
+                      <p class="text-primary text-uppercase fw-bold mb-0">
+                        Components
+                      </p>
+                      <p class="group-info mb-0">Full list of components</p>
+                    </div>
+                  </a>
+                </div>
+                <div class="group-item">
+                  <a class="group-link text-decoration-none" href="#">
+                    <div>
+                      <img src="src/graphics/nav-3.png" />
+                    </div>
+                    <div class="group-text">
+                      <p class="text-primary text-uppercase fw-bold mb-0">
+                        Changelog
+                        <span class="badge bg-info">11.3</span>
+                      </p>
+                      <p class="group-info mb-0">Keep track of changes</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <form class="ml-auto">
+            <button type="button" class="btn btn-primary">Buy now</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- END MAIN NAVBAR -->
+    <!-- WELCOME SECTION -->
+    <section class="welcome">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-12 col-md-6">
+            <h1 class="welcome-heading">
+              Welcome to <span class="text-primary">Bridge</span>.<br>
+              Let's create the future.
+            </h1>
+            <p class="welcome-text">
+              Build beautiful websites with flexible layouts with Bridge. The first and most compelling latest
+              Bootstrap 5 theme.
+            </p>
+            <div class="d-flex">
+              <button type="button" class="btn btn-primary p-3 me-4 hover-lift hover-shadow">
+                View pages
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-arrow-right-short" viewBox="0 0 16 16">
+                  <path fill-rule="evenodd" d="M4 8a.5.5 0 0 1 .5-.5h5.793L8.146 5.354a.5.5 0 1 1 .708-.708l3 3a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708-.708L10.293 8.5H4.5A.5.5 0 0 1 4 8z"/>
+                </svg>
+              </button>
+              <button type="button" class="btn btn-grey p-3 hover-lift hover-shadow">
+                Get Started
+              </button>
+            </div>
+          </div>
+          <div class="col-12 col-md-6">
+            <span class="welcome-bg">
+              <img src="src/graphics/create.svg" alt="create" />
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END WELCOME SECTION -->
     <!-- SCRIPTS JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script src="../../node_modules/bootstrap/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>

@@ -1,0 +1,30 @@
+// MAIN NAVIGATION STYLES
+
+.navbar {
+
+  .nav-link:hover {
+    color: $primary;
+  }
+
+  .dropdown-item {
+    padding: 1rem 8rem 1rem 1rem;
+  }
+
+  // DROPDOWN GROUP
+
+  .group-menu {
+    min-width: 18rem;
+    padding: 0;
+  }
+
+  .group-link {
+    display: flex;
+    padding: 0.8rem 0.4rem;
+    align-items: center;
+  }
+
+  .group-text {
+    margin-left: 0.4rem;
+  }
+
+}

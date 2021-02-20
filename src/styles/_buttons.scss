@@ -1,0 +1,35 @@
+// CUSTOM STYLES FOR BUTTONS
+
+.btn {
+  backface-visibility: hidden;
+  transition: all .4s;
+
+  &:focus {
+    box-shadow: unset;
+  }
+}
+
+.btn-grey {
+  background-color: $color-grey;
+  color: $primary;
+
+  &:hover {
+    color: $primary;
+    background-color: darken($color-grey, 10%);
+  }
+}
+
+.hover-lift:hover {
+  &:hover {
+    transform: translateY(-3px);
+  }
+  &:focus {
+    transform: translateY(0);
+  }
+}
+
+.hover-shadow {
+  &:hover {
+    box-shadow: -0.5rem .5rem 1.5rem rgba(22,28,45,.1)!important;
+  }
+}
