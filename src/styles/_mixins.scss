@@ -1,0 +1,7 @@
+@mixin hover-lift-Y($value) {
+  transform: translateY($value);
+}
+
+@mixin hover-shadow($value) {
+  box-shadow: $value;
+}

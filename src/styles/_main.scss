@@ -9,9 +9,13 @@
 h1,
 h2,
 h3,
-h4,
-h5 {
+h4 {
   font-weight: 300;
+  color: $font-primary;
+}
+
+h5 {
+  font-weight: 500;
   color: $font-primary;
 }
 

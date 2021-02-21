@@ -11,3 +11,72 @@
     margin-bottom: 3rem;
   }
 }
+
+/////////////////////////////
+// SECTION FEATURES STYLES //
+////////////////////////////
+.features {
+  padding: 4rem 0;
+
+  &-box {
+    text-align: center;
+  }
+
+  &-text {
+    font-size: 1.05rem;
+    line-height: 1.6rem;
+    text-align: justify;
+  }
+}
+
+/////////////////////////////
+// SECTION COMPANIES STYLES //
+////////////////////////////
+
+.companies {
+  padding: 4rem 0;
+
+  &-logo {
+    cursor: pointer;
+  }
+}
+
+/////////////////////////////
+// SECTION ABOUT STYLES //
+////////////////////////////
+
+.about {
+  padding: 7rem 0;
+
+  .card {
+    border: 0;
+    max-width: 22.5rem;
+    transition: all .4s ease-in-out;
+
+    &:hover {
+      @include hover-lift-Y(-10px);
+      @include hover-shadow(0rem 1rem 1.5rem rgba(22,28,45,.15));
+    }
+  }
+
+  .form-control {
+    border-color: $border-light;
+  }
+
+  ::placeholder {
+    color: $border-light;
+  }
+
+  &-heading {
+    font-weight: 400;
+  }
+
+  &-text {
+    font-size: 1.10rem;
+    line-height: 1.8rem;
+  }
+
+  &-icon {
+    width: 38px;
+  }
+}
