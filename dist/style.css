@@ -7458,7 +7458,8 @@ textarea.form-control-lg {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-weight: 300;
-  color: #161c2d; }
+  color: #161c2d;
+  margin-bottom: 0; }
 
 h5, .h5 {
   font-weight: 500;
@@ -7469,7 +7470,8 @@ a {
   color: #adb5bd; }
 
 p {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  margin-bottom: 0; }
 
 img {
   max-width: 100%;
@@ -7479,6 +7481,12 @@ body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   line-height: 2rem; }
+
+.intro-heading {
+  font-weight: 400; }
+
+.intro-subheading {
+  font-size: 1.05rem; }
 
 .welcome {
   padding: 2rem 0; }
@@ -7519,3 +7527,38 @@ body {
     line-height: 1.8rem; }
   .about-icon {
     width: 38px; }
+
+.clients {
+  padding: 7rem 0; }
+  .clients-quotation {
+    width: 80%;
+    margin: 0 auto; }
+  .clients-opinion {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: #161c2d; }
+
+.clients .carousel {
+  overflow: hidden;
+  border-radius: 5px;
+  border: 1px solid #e9ecef; }
+
+.clients .carousel-control-prev,
+.clients .carousel-control-next {
+  width: 6%;
+  opacity: 1; }
+  .clients .carousel-control-prev:hover, .clients .carousel-control-prev:focus,
+  .clients .carousel-control-next:hover,
+  .clients .carousel-control-next:focus {
+    opacity: unset; }
+
+.clients .bi {
+  opacity: .7;
+  background: #f2f6ff;
+  border-radius: 50%;
+  color: #0d6efd;
+  padding: 5px;
+  transition: all .3s ease-in; }
+  .clients .bi:hover {
+    opacity: 1;
+    transform: translateY(-4px); }

@@ -80,3 +80,22 @@
     width: 38px;
   }
 }
+
+/////////////////////////////
+// SECTION CLIENTS STYLES //
+////////////////////////////
+
+.clients {
+  padding: 7rem 0;
+
+  &-quotation {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  &-opinion {
+    font-size: 1rem;
+    line-height: 1.4rem;
+    color: $font-primary;
+  }
+}

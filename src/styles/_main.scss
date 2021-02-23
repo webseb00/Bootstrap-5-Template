@@ -12,6 +12,7 @@ h3,
 h4 {
   font-weight: 300;
   color: $font-primary;
+  margin-bottom: 0;
 }
 
 h5 {
@@ -26,6 +27,7 @@ a {
 
 p {
   font-size: 1.25rem;
+  margin-bottom: 0;
 }
 
 img {
@@ -39,3 +41,14 @@ body {
   line-height: 2rem;
 }
 
+// SECTION HEADING STYLES
+
+.intro {
+  &-heading {
+    font-weight: 400;
+  }
+
+  &-subheading {
+    font-size: 1.05rem;
+  }
+}
