@@ -2,7 +2,7 @@
 
 .btn {
   backface-visibility: hidden;
-  transition: all .4s;
+  transition: all .4s ease-in-out;
 
   &:focus {
     box-shadow: unset;
@@ -19,7 +19,7 @@
   }
 }
 
-.hover-lift:hover {
+.hover-lift-y:hover {
   &:hover {
     transform: translateY(-3px);
   }

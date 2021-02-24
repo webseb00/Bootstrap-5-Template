@@ -7423,7 +7423,7 @@ textarea.form-control-lg {
 
 .btn {
   backface-visibility: hidden;
-  transition: all .4s; }
+  transition: all .4s ease-in-out; }
   .btn:focus {
     box-shadow: unset; }
 
@@ -7434,10 +7434,10 @@ textarea.form-control-lg {
     color: #0d6efd;
     background-color: #bfd3ff; }
 
-.hover-lift:hover:hover {
+.hover-lift-y:hover:hover {
   transform: translateY(-3px); }
 
-.hover-lift:hover:focus {
+.hover-lift-y:hover:focus {
   transform: translateY(0); }
 
 .hover-shadow:hover {
@@ -7559,6 +7559,20 @@ img {
   .faq h4, .faq .h4 {
     color: #ffffff;
     font-size: 1.3rem; }
+
+.footer-list {
+  list-style-type: none;
+  padding: 0; }
+
+.footer-link {
+  font-size: 1rem;
+  text-decoration: none;
+  transition: all .4s; }
+  .footer-link:hover {
+    color: #0d6efd; }
+
+.footer-info {
+  font-size: .9rem; }
 
 .clients .carousel {
   overflow: hidden;
