@@ -6,6 +6,22 @@
   margin-top: 7rem;
 }
 
+.ps-6 {
+  padding-left: 6rem;
+}
+
 .bg-grey {
   background-color: $color-grey;
+}
+
+.bg-dark {
+  background-color: $color-dark !important;
+}
+
+.badge-grey {
+  background-color: $color-grey;
+}
+
+.fw-500 {
+  font-weight: 500 !important;
 }

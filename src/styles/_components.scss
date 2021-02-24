@@ -1,0 +1,65 @@
+// BOX COMPONENT
+
+.box {
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: $color-light;
+  padding: 4rem;
+  position: relative;
+
+  &--right-col {
+    padding: 10rem 4rem;
+  }
+
+  p {
+    font-size: 1.05rem;
+    line-height: 1.4rem;
+  }
+
+  &-price {
+    margin-top: 4rem;
+  }
+
+  &-type {
+    font-size: 2.2rem;
+  }
+
+  &-value {
+    font-size: 3.6rem;
+  }
+
+  &-period {
+    margin-top: 1.56rem;
+  }
+
+  &-body {
+    padding: 4rem 0;
+  }
+
+  &-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  &-item {
+    margin-bottom: 1rem;
+  }
+
+  .bi {
+    color: $success;
+    margin-right: 5px;
+  }
+
+  &-footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 3.125rem;
+  }
+}
+
+.badge {
+  padding: 0.45em 0.85em;
+}

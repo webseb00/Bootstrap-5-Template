@@ -6,10 +6,6 @@
 ////////////////////////////
 .welcome {
   padding: 2rem 0;
-
-  &-text {
-    margin-bottom: 3rem;
-  }
 }
 
 /////////////////////////////
@@ -67,10 +63,6 @@
     color: $border-light;
   }
 
-  &-heading {
-    font-weight: 400;
-  }
-
   &-text {
     font-size: 1.10rem;
     line-height: 1.8rem;
@@ -97,5 +89,34 @@
     font-size: 1rem;
     line-height: 1.4rem;
     color: $font-primary;
+  }
+}
+
+/////////////////////////////
+// SECTION BEGIN STYLES //
+////////////////////////////
+
+.begin {
+  padding: 8rem 0 7rem;
+}
+
+/////////////////////////////
+// SECTION PRICING STYLES //
+////////////////////////////
+
+.pricing {
+  padding-bottom: 7rem;
+}
+
+/////////////////////////////
+// SECTION FAQ STYLES //
+////////////////////////////
+
+.faq {
+  padding: 4rem 0 1rem 0;
+
+  h4 {
+    color: $color-light;
+    font-size: 1.3rem;
   }
 }
